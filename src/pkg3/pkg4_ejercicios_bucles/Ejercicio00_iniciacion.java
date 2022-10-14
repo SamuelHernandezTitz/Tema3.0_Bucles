@@ -20,18 +20,18 @@ public class Ejercicio00_iniciacion {
         
         Scanner entrada = new Scanner(System.in);
         
-//        System.out.println("**** for ****");
-//        for (int i=0;i<10;i++){
-//            System.out.println("i vale: "+i);
-//            
-//        }
-//        
-//        System.out.println("\n\n**** while ****");    
-//        int i=1;
-//        while(i<=10){
-//            System.out.println("i");
-//            i++;
-//        }
+        System.out.println("**** for ****");
+        for (int i=0;i<10;i++){
+            System.out.println("i vale: "+i);
+            
+        }
+        
+        System.out.println("\n\n**** while ****");    
+        int i=1;
+        while(i<=10){
+            System.out.println("i");
+            i++;
+        }
 //        
 //        System.out.println("\n\n**** do while ****");
 //        i=1;
@@ -39,11 +39,11 @@ public class Ejercicio00_iniciacion {
 //            System.out.println("i");
 //            i++;
 //        }while(i<11);
-        
+//        
 //        System.out.println("\n\n**** Introducir numeros hasta negativo ****");
 //        
 //        
-        int num;
+//        int num;
 //        
 //        System.out.println("--- Usando un while ---");
 //        System.out.println("Numero positio para continuar: ");
@@ -59,9 +59,9 @@ public class Ejercicio00_iniciacion {
 //            System.out.println("Numero positivo para continuar: ");
 //            num = Integer.parseInt(entrada.nextLine());
 //        }while (num>=0);
-        
+//        
 ////////////////////////////////////////////////////////////////////////////////
-        
+//        
 //        System.out.println("\n\n**** Introducir numeros hasta impar ****");
 //     
 //        do{
@@ -71,17 +71,17 @@ public class Ejercicio00_iniciacion {
 //                break;
 //            }
 //        }while (true);
-        
+//        
 //        System.out.println("Numero positio para continuar: ");
 //        num = Integer.parseInt(entrada.nextLine());
 //        
 //        while (num%2==0){
 //            System.out.print("Numero par para continuar: ");
 //            num = Integer.parseInt(entrada.nextLine());
-
-
+//
+//
 ////////////////////////////////////////////////////////////////////////////////
-
+//
 //        System.out.println("**** for ****");
 //        for (int i=0;i<10;i++){
 //            System.out.println("Numero par para continuar: ");
@@ -89,29 +89,29 @@ public class Ejercicio00_iniciacion {
 //            if (num%2!=0){
 //                break;
 //            }
-            
-            int ascii_A=65;
-            System.out.println("Letra: "+ascii_A);
-            for (int i=65;i<=90;i++){
-            System.out.print("Letra: "+(char)i);
-             System.out.println("  "+(char)(i+32));
-            }
-            
-////////////////////////////////////////////////////////////////////////////////                
-   
-        int numero=0;
-        int suma =0;
-        int ontafor =0;
-    
-        while (num>=0){
-        System.out.println("Introduce un numero :");
-        num = Integer.parseInt(entrada.nextLine());
-        
-        suma = suma + num;
-        ontafor++;
-        }
-        System.out.println("La su,a acumulada es: "+suma);
-        System.out.println("Total numeros introducidos: "+contador);
+//            
+//            int ascii_A=65;
+//            System.out.println("Letra: "+ascii_A);
+//            for (int i=65;i<=90;i++){
+//            System.out.print("Letra: "+(char)i);
+//             System.out.println("  "+(char)(i+32));
+//            }
+//            
+//////////////////////////////////////////////////////////////////////////////////                
+//   
+//        int numero=0;
+//        int suma =0;
+//        int contador =0;
+//    
+//        while (numero>=0){
+//        System.out.println("Introduce un numero :");
+//        num = Integer.parseInt(entrada.nextLine());
+//        
+//        suma = suma + num;
+//        contador++;
+//        }
+//        System.out.println("La su,a acumulada es: "+suma);
+//        System.out.println("Total numeros introducidos: "+contador);
         
                 
                 
@@ -139,4 +139,4 @@ public class Ejercicio00_iniciacion {
     
     
     
-}
+

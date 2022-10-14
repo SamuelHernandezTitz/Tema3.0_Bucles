@@ -19,18 +19,32 @@ public class Ejercicio1 {
         // TODO code application logic here
        Scanner entrada = new Scanner(System.in); 
         
-       int num = 5;
-       int multip;
+       int num;
        
-       System.out.println("**** La tabla del cinco ****");
-       multip = Integer.parseInt(entrada.nextLine());
-       for (int i=65;i<=90;i++){
+       System.out.println("**** La tabla de multiplicar ****");
+       System.out.println("Introduce un numero: ");
+       num = Integer.parseInt(entrada.nextLine());
+       for (int i=0;i<=10;i++){
+           System.out.println(num+"*"+i+"="+(num*i));
            
        } 
+       
+    /////USANDO  WHILE /////////////////////////////////////////////////////////
+       
+       int j=1;
+       while (j<=10){
+           System.out.println(num+"*"+j+"="+(num*j));
+           j++;
+       }
         
-        
-        
-        
+    /////USANDO DO WHILE ///////////////////////////////////////////////////////
+       
+       j=1;
+       do{
+           System.out.println(num+"*"+j+"="+(num*j));
+           j++;
+       }while (j<=10);
+               
         
         
         
